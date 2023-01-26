@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Bilac310.",
+    password: "",
     database: "management_system_db"
   });
 
@@ -67,4 +67,7 @@ function firstPrompt() {
     });
 }
 
-// gitt
+// Add Employee()
+function viewEmployee() {
+  console.log("Viewing employees\n");
+}
